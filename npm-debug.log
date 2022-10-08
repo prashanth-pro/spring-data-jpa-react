@@ -1,0 +1,356 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Users\\I523719\\Documents\\Projects\\spring-jpa-react\\node\\node.exe',
+1 verbose cli   'C:\\Users\\I523719\\Documents\\Projects\\spring-jpa-react\\node\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.0
+4 verbose readDependencies loading dependencies from C:\Users\I523719\Documents\Projects\spring-jpa-react\package.json
+5 warn package.json spring-data-rest-and-reactjs@0.1.0 No README data
+6 verbose install where, deps [ 'C:\\Users\\I523719\\Documents\\Projects\\spring-jpa-react',
+6 verbose install   [ 'react',
+6 verbose install     'react-dom',
+6 verbose install     'rest',
+6 verbose install     '@babel/core',
+6 verbose install     '@babel/preset-env',
+6 verbose install     '@babel/preset-react',
+6 verbose install     'babel-loader',
+6 verbose install     'webpack',
+6 verbose install     'webpack-cli' ] ]
+7 verbose install where, peers [ 'C:\\Users\\I523719\\Documents\\Projects\\spring-jpa-react',
+7 verbose install   [] ]
+8 verbose installManyTop reading for lifecycle C:\Users\I523719\Documents\Projects\spring-jpa-react\package.json
+9 info preinstall spring-data-rest-and-reactjs@0.1.0
+10 verbose readDependencies loading dependencies from C:\Users\I523719\Documents\Projects\spring-jpa-react\package.json
+11 silly cache add args [ 'react@^16.5.2', null ]
+12 verbose cache add spec react@^16.5.2
+13 silly cache add args [ 'react-dom@^16.5.2', null ]
+14 verbose cache add spec react-dom@^16.5.2
+15 silly cache add parsed spec Result {
+15 silly cache add   raw: 'react@^16.5.2',
+15 silly cache add   scope: null,
+15 silly cache add   name: 'react',
+15 silly cache add   rawSpec: '^16.5.2',
+15 silly cache add   spec: '>=16.5.2 <17.0.0',
+15 silly cache add   type: 'range' }
+16 silly addNamed react@>=16.5.2 <17.0.0
+17 verbose addNamed ">=16.5.2 <17.0.0" is a valid semver range for react
+18 silly addNameRange { name: 'react', range: '>=16.5.2 <17.0.0', hasData: false }
+19 silly mapToRegistry name react
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry data Result {
+22 silly mapToRegistry   raw: 'react',
+22 silly mapToRegistry   scope: null,
+22 silly mapToRegistry   name: 'react',
+22 silly mapToRegistry   rawSpec: '',
+22 silly mapToRegistry   spec: 'latest',
+22 silly mapToRegistry   type: 'tag' }
+23 silly mapToRegistry uri https://registry.npmjs.org/react
+24 verbose addNameRange registry:https://registry.npmjs.org/react not in flight; fetching
+25 silly cache add parsed spec Result {
+25 silly cache add   raw: 'react-dom@^16.5.2',
+25 silly cache add   scope: null,
+25 silly cache add   name: 'react-dom',
+25 silly cache add   rawSpec: '^16.5.2',
+25 silly cache add   spec: '>=16.5.2 <17.0.0',
+25 silly cache add   type: 'range' }
+26 silly addNamed react-dom@>=16.5.2 <17.0.0
+27 verbose addNamed ">=16.5.2 <17.0.0" is a valid semver range for react-dom
+28 silly addNameRange { name: 'react-dom', range: '>=16.5.2 <17.0.0', hasData: false }
+29 silly mapToRegistry name react-dom
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry data Result {
+32 silly mapToRegistry   raw: 'react-dom',
+32 silly mapToRegistry   scope: null,
+32 silly mapToRegistry   name: 'react-dom',
+32 silly mapToRegistry   rawSpec: '',
+32 silly mapToRegistry   spec: 'latest',
+32 silly mapToRegistry   type: 'tag' }
+33 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+34 verbose addNameRange registry:https://registry.npmjs.org/react-dom not in flight; fetching
+35 silly cache add args [ 'rest@^1.3.1', null ]
+36 verbose cache add spec rest@^1.3.1
+37 silly cache add parsed spec Result {
+37 silly cache add   raw: 'rest@^1.3.1',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'rest',
+37 silly cache add   rawSpec: '^1.3.1',
+37 silly cache add   spec: '>=1.3.1 <2.0.0',
+37 silly cache add   type: 'range' }
+38 silly addNamed rest@>=1.3.1 <2.0.0
+39 verbose addNamed ">=1.3.1 <2.0.0" is a valid semver range for rest
+40 silly addNameRange { name: 'rest', range: '>=1.3.1 <2.0.0', hasData: false }
+41 silly mapToRegistry name rest
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry data Result {
+44 silly mapToRegistry   raw: 'rest',
+44 silly mapToRegistry   scope: null,
+44 silly mapToRegistry   name: 'rest',
+44 silly mapToRegistry   rawSpec: '',
+44 silly mapToRegistry   spec: 'latest',
+44 silly mapToRegistry   type: 'tag' }
+45 silly mapToRegistry uri https://registry.npmjs.org/rest
+46 verbose addNameRange registry:https://registry.npmjs.org/rest not in flight; fetching
+47 silly cache add args [ '@babel/core@^7.1.0', null ]
+48 verbose cache add spec @babel/core@^7.1.0
+49 silly cache add parsed spec Result {
+49 silly cache add   raw: '@babel/core@^7.1.0',
+49 silly cache add   scope: '@babel',
+49 silly cache add   name: '@babel/core',
+49 silly cache add   rawSpec: '^7.1.0',
+49 silly cache add   spec: '>=7.1.0 <8.0.0',
+49 silly cache add   type: 'range' }
+50 silly addNamed @babel/core@>=7.1.0 <8.0.0
+51 verbose addNamed ">=7.1.0 <8.0.0" is a valid semver range for @babel/core
+52 silly addNameRange { name: '@babel/core', range: '>=7.1.0 <8.0.0', hasData: false }
+53 silly mapToRegistry name @babel/core
+54 silly mapToRegistry scope (from package name) @babel
+55 verbose mapToRegistry no registry URL found in name for scope @babel
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry data Result {
+58 silly mapToRegistry   raw: '@babel/core',
+58 silly mapToRegistry   scope: '@babel',
+58 silly mapToRegistry   name: '@babel/core',
+58 silly mapToRegistry   rawSpec: '',
+58 silly mapToRegistry   spec: 'latest',
+58 silly mapToRegistry   type: 'tag' }
+59 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fcore
+60 verbose addNameRange registry:https://registry.npmjs.org/@babel%2fcore not in flight; fetching
+61 silly cache add args [ '@babel/preset-env@^7.1.0', null ]
+62 verbose cache add spec @babel/preset-env@^7.1.0
+63 silly cache add parsed spec Result {
+63 silly cache add   raw: '@babel/preset-env@^7.1.0',
+63 silly cache add   scope: '@babel',
+63 silly cache add   name: '@babel/preset-env',
+63 silly cache add   rawSpec: '^7.1.0',
+63 silly cache add   spec: '>=7.1.0 <8.0.0',
+63 silly cache add   type: 'range' }
+64 silly addNamed @babel/preset-env@>=7.1.0 <8.0.0
+65 verbose addNamed ">=7.1.0 <8.0.0" is a valid semver range for @babel/preset-env
+66 silly addNameRange { name: '@babel/preset-env',
+66 silly addNameRange   range: '>=7.1.0 <8.0.0',
+66 silly addNameRange   hasData: false }
+67 silly mapToRegistry name @babel/preset-env
+68 silly mapToRegistry scope (from package name) @babel
+69 verbose mapToRegistry no registry URL found in name for scope @babel
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry data Result {
+72 silly mapToRegistry   raw: '@babel/preset-env',
+72 silly mapToRegistry   scope: '@babel',
+72 silly mapToRegistry   name: '@babel/preset-env',
+72 silly mapToRegistry   rawSpec: '',
+72 silly mapToRegistry   spec: 'latest',
+72 silly mapToRegistry   type: 'tag' }
+73 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fpreset-env
+74 verbose addNameRange registry:https://registry.npmjs.org/@babel%2fpreset-env not in flight; fetching
+75 silly cache add args [ '@babel/preset-react@^7.0.0', null ]
+76 verbose cache add spec @babel/preset-react@^7.0.0
+77 silly cache add parsed spec Result {
+77 silly cache add   raw: '@babel/preset-react@^7.0.0',
+77 silly cache add   scope: '@babel',
+77 silly cache add   name: '@babel/preset-react',
+77 silly cache add   rawSpec: '^7.0.0',
+77 silly cache add   spec: '>=7.0.0 <8.0.0',
+77 silly cache add   type: 'range' }
+78 silly addNamed @babel/preset-react@>=7.0.0 <8.0.0
+79 verbose addNamed ">=7.0.0 <8.0.0" is a valid semver range for @babel/preset-react
+80 silly addNameRange { name: '@babel/preset-react',
+80 silly addNameRange   range: '>=7.0.0 <8.0.0',
+80 silly addNameRange   hasData: false }
+81 silly mapToRegistry name @babel/preset-react
+82 silly mapToRegistry scope (from package name) @babel
+83 verbose mapToRegistry no registry URL found in name for scope @babel
+84 silly mapToRegistry using default registry
+85 silly mapToRegistry registry https://registry.npmjs.org/
+86 silly mapToRegistry data Result {
+86 silly mapToRegistry   raw: '@babel/preset-react',
+86 silly mapToRegistry   scope: '@babel',
+86 silly mapToRegistry   name: '@babel/preset-react',
+86 silly mapToRegistry   rawSpec: '',
+86 silly mapToRegistry   spec: 'latest',
+86 silly mapToRegistry   type: 'tag' }
+87 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fpreset-react
+88 verbose addNameRange registry:https://registry.npmjs.org/@babel%2fpreset-react not in flight; fetching
+89 silly cache add args [ 'babel-loader@^8.0.2', null ]
+90 verbose cache add spec babel-loader@^8.0.2
+91 silly cache add parsed spec Result {
+91 silly cache add   raw: 'babel-loader@^8.0.2',
+91 silly cache add   scope: null,
+91 silly cache add   name: 'babel-loader',
+91 silly cache add   rawSpec: '^8.0.2',
+91 silly cache add   spec: '>=8.0.2 <9.0.0',
+91 silly cache add   type: 'range' }
+92 silly addNamed babel-loader@>=8.0.2 <9.0.0
+93 verbose addNamed ">=8.0.2 <9.0.0" is a valid semver range for babel-loader
+94 silly addNameRange { name: 'babel-loader', range: '>=8.0.2 <9.0.0', hasData: false }
+95 silly mapToRegistry name babel-loader
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry https://registry.npmjs.org/
+98 silly mapToRegistry data Result {
+98 silly mapToRegistry   raw: 'babel-loader',
+98 silly mapToRegistry   scope: null,
+98 silly mapToRegistry   name: 'babel-loader',
+98 silly mapToRegistry   rawSpec: '',
+98 silly mapToRegistry   spec: 'latest',
+98 silly mapToRegistry   type: 'tag' }
+99 silly mapToRegistry uri https://registry.npmjs.org/babel-loader
+100 verbose addNameRange registry:https://registry.npmjs.org/babel-loader not in flight; fetching
+101 silly cache add args [ 'webpack@^4.19.1', null ]
+102 verbose cache add spec webpack@^4.19.1
+103 silly cache add parsed spec Result {
+103 silly cache add   raw: 'webpack@^4.19.1',
+103 silly cache add   scope: null,
+103 silly cache add   name: 'webpack',
+103 silly cache add   rawSpec: '^4.19.1',
+103 silly cache add   spec: '>=4.19.1 <5.0.0',
+103 silly cache add   type: 'range' }
+104 silly addNamed webpack@>=4.19.1 <5.0.0
+105 verbose addNamed ">=4.19.1 <5.0.0" is a valid semver range for webpack
+106 silly addNameRange { name: 'webpack', range: '>=4.19.1 <5.0.0', hasData: false }
+107 silly mapToRegistry name webpack
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry data Result {
+110 silly mapToRegistry   raw: 'webpack',
+110 silly mapToRegistry   scope: null,
+110 silly mapToRegistry   name: 'webpack',
+110 silly mapToRegistry   rawSpec: '',
+110 silly mapToRegistry   spec: 'latest',
+110 silly mapToRegistry   type: 'tag' }
+111 silly mapToRegistry uri https://registry.npmjs.org/webpack
+112 verbose addNameRange registry:https://registry.npmjs.org/webpack not in flight; fetching
+113 silly cache add args [ 'webpack-cli@^3.1.0', null ]
+114 verbose cache add spec webpack-cli@^3.1.0
+115 silly cache add parsed spec Result {
+115 silly cache add   raw: 'webpack-cli@^3.1.0',
+115 silly cache add   scope: null,
+115 silly cache add   name: 'webpack-cli',
+115 silly cache add   rawSpec: '^3.1.0',
+115 silly cache add   spec: '>=3.1.0 <4.0.0',
+115 silly cache add   type: 'range' }
+116 silly addNamed webpack-cli@>=3.1.0 <4.0.0
+117 verbose addNamed ">=3.1.0 <4.0.0" is a valid semver range for webpack-cli
+118 silly addNameRange { name: 'webpack-cli', range: '>=3.1.0 <4.0.0', hasData: false }
+119 silly mapToRegistry name webpack-cli
+120 silly mapToRegistry using default registry
+121 silly mapToRegistry registry https://registry.npmjs.org/
+122 silly mapToRegistry data Result {
+122 silly mapToRegistry   raw: 'webpack-cli',
+122 silly mapToRegistry   scope: null,
+122 silly mapToRegistry   name: 'webpack-cli',
+122 silly mapToRegistry   rawSpec: '',
+122 silly mapToRegistry   spec: 'latest',
+122 silly mapToRegistry   type: 'tag' }
+123 silly mapToRegistry uri https://registry.npmjs.org/webpack-cli
+124 verbose addNameRange registry:https://registry.npmjs.org/webpack-cli not in flight; fetching
+125 verbose request uri https://registry.npmjs.org/react
+126 verbose request no auth needed
+127 info attempt registry request try #1 at 1:42:35 PM
+128 verbose request id f1a54066f8b9f332
+129 http request GET https://registry.npmjs.org/react
+130 verbose request uri https://registry.npmjs.org/react-dom
+131 verbose request no auth needed
+132 info attempt registry request try #1 at 1:42:35 PM
+133 http request GET https://registry.npmjs.org/react-dom
+134 verbose request uri https://registry.npmjs.org/rest
+135 verbose request no auth needed
+136 info attempt registry request try #1 at 1:42:35 PM
+137 http request GET https://registry.npmjs.org/rest
+138 verbose request uri https://registry.npmjs.org/@babel%2fcore
+139 verbose request no auth needed
+140 info attempt registry request try #1 at 1:42:35 PM
+141 http request GET https://registry.npmjs.org/@babel%2fcore
+142 verbose request uri https://registry.npmjs.org/@babel%2fpreset-env
+143 verbose request no auth needed
+144 info attempt registry request try #1 at 1:42:35 PM
+145 http request GET https://registry.npmjs.org/@babel%2fpreset-env
+146 verbose request uri https://registry.npmjs.org/@babel%2fpreset-react
+147 verbose request no auth needed
+148 info attempt registry request try #1 at 1:42:35 PM
+149 http request GET https://registry.npmjs.org/@babel%2fpreset-react
+150 verbose request uri https://registry.npmjs.org/babel-loader
+151 verbose request no auth needed
+152 info attempt registry request try #1 at 1:42:35 PM
+153 http request GET https://registry.npmjs.org/babel-loader
+154 verbose request uri https://registry.npmjs.org/webpack
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 1:42:35 PM
+157 http request GET https://registry.npmjs.org/webpack
+158 verbose request uri https://registry.npmjs.org/webpack-cli
+159 verbose request no auth needed
+160 info attempt registry request try #1 at 1:42:35 PM
+161 http request GET https://registry.npmjs.org/webpack-cli
+162 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+163 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+164 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+165 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+166 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+167 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+168 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+169 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+170 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+171 info attempt registry request try #2 at 1:42:45 PM
+172 http request GET https://registry.npmjs.org/react-dom
+173 info attempt registry request try #2 at 1:42:45 PM
+174 http request GET https://registry.npmjs.org/@babel%2fpreset-react
+175 info attempt registry request try #2 at 1:42:45 PM
+176 http request GET https://registry.npmjs.org/webpack
+177 info attempt registry request try #2 at 1:42:45 PM
+178 http request GET https://registry.npmjs.org/@babel%2fcore
+179 info attempt registry request try #2 at 1:42:45 PM
+180 http request GET https://registry.npmjs.org/rest
+181 info attempt registry request try #2 at 1:42:45 PM
+182 http request GET https://registry.npmjs.org/babel-loader
+183 info attempt registry request try #2 at 1:42:45 PM
+184 http request GET https://registry.npmjs.org/react
+185 info attempt registry request try #2 at 1:42:45 PM
+186 http request GET https://registry.npmjs.org/webpack-cli
+187 info attempt registry request try #2 at 1:42:45 PM
+188 http request GET https://registry.npmjs.org/@babel%2fpreset-env
+189 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+190 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+191 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+192 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+193 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+194 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+195 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+196 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+197 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+198 info attempt registry request try #3 at 1:43:45 PM
+199 http request GET https://registry.npmjs.org/@babel%2fpreset-react
+200 info attempt registry request try #3 at 1:43:45 PM
+201 http request GET https://registry.npmjs.org/babel-loader
+202 info attempt registry request try #3 at 1:43:45 PM
+203 http request GET https://registry.npmjs.org/@babel%2fcore
+204 info attempt registry request try #3 at 1:43:45 PM
+205 http request GET https://registry.npmjs.org/react-dom
+206 info attempt registry request try #3 at 1:43:45 PM
+207 http request GET https://registry.npmjs.org/webpack
+208 info attempt registry request try #3 at 1:43:45 PM
+209 http request GET https://registry.npmjs.org/webpack-cli
+210 info attempt registry request try #3 at 1:43:45 PM
+211 http request GET https://registry.npmjs.org/rest
+212 info attempt registry request try #3 at 1:43:45 PM
+213 http request GET https://registry.npmjs.org/react
+214 info attempt registry request try #3 at 1:43:45 PM
+215 http request GET https://registry.npmjs.org/@babel%2fpreset-env
+216 verbose stack Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+216 verbose stack
+216 verbose stack     at exports._errnoException (util.js:907:11)
+216 verbose stack     at WriteWrap.afterWrite (net.js:785:14)
+217 verbose cwd C:\Users\I523719\Documents\Projects\spring-jpa-react
+218 error Windows_NT 10.0.19044
+219 error argv "C:\\Users\\I523719\\Documents\\Projects\\spring-jpa-react\\node\\node.exe" "C:\\Users\\I523719\\Documents\\Projects\\spring-jpa-react\\node\\node_modules\\npm\\bin\\npm-cli.js" "install"
+220 error node v4.6.0
+221 error npm  v2.15.9
+222 error code EPROTO
+223 error errno EPROTO
+224 error syscall write
+225 error write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+226 error If you need help, you may report this error at:
+226 error     <https://github.com/npm/npm/issues>
+227 verbose exit [ 1, true ]
